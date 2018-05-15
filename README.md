@@ -13,6 +13,7 @@ The map is created using Leaflet. The hexbin layer is a custom Leaflet layer whi
 
 
  ###Set up the workspace
+ 
  The basic folder structure to generate a bubble plot should be as follows:
    ```powershell
    Bubblechart
@@ -39,6 +40,7 @@ The map is created using Leaflet. The hexbin layer is a custom Leaflet layer whi
  
 
 ###  Data sources:
+
 Earthquake data sourced from
 [GeoNet ](https://quakesearch.geonet.org.nz/)Geological hazard information for New Zealand
 
@@ -67,7 +69,7 @@ The html document should first call the relevant libraries, and title the docume
 </head>
 ```
 
- Here we define the size of our chart.
+ Here I define the size of my chart.
 ``` html
 
      <style type="text/css">
@@ -79,13 +81,13 @@ The html document should first call the relevant libraries, and title the docume
 
 
 
-Next, we define the data-source as a format of geojason.
+Next, I define the data-source as a format of geojason.
 ``` html
 
  <div id='quake' data-source="assets/tongariro.geojson"></div>
 ```
-In next section, we use colorbrewer to choose the classes of color(we define yellow 
-orange and red) then by using leaflet library we prepare the zoome scale and also the coordinate of the 
+In next section, I use colorbrewer to choose the classes of color(I define yellow 
+orange and red) then by using leaflet library I prepare the zoome scale and also the coordinate of the 
 center of map and finally specify the basemap.
 
 ``` html
