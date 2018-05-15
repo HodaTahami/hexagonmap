@@ -12,7 +12,7 @@ This hexbin map shows the proximity of earthquakes in the Tongariro region of Ne
 The map is created using Leaflet. The hexbin layer is a custom Leaflet layer which uses d3js to generate a svg hexbin overlay.
 
 
- ###Set up the workspace
+ ### Set up the workspace
  
  The basic folder structure to generate a bubble plot should be as follows:
    ```powershell
