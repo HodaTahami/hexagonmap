@@ -20,9 +20,11 @@ The map is created using Leaflet. The hexbin layer is a custom Leaflet layer whi
        │readme.md
        ├─css
        │      style.css
+       │      leaflet.css
        ├─js
        │      leaflet.hexbin-layer.js
        │      colorbrewer.js
+       │      leaflet-src.js
        ├─img
        │      hexagonalmap.PNG
        │      newzeland.PNG
